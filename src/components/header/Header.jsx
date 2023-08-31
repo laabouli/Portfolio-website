@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import "./header.css";
 
 const Header = () => {
+  // for change background header
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header");
+    if (this.scrollY >= 80) header.classList.add("scroll-header");
+    else header.classList.remove("scroll-header");
+  });
   // toggle menu
   const [Toggle, showMenu] = useState(false);
   return (
@@ -13,19 +19,19 @@ const Header = () => {
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="#Home" className="nav__link active-link">
+              <a href="#home" className="nav__link active-link">
                 <i className="uil uil-estate nav__icon"></i>Home
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#About" className="nav__link">
+              <a href="#about" className="nav__link">
                 <i className="uil uil-user nav__icon"></i>About
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#Skills" className="nav__link">
+              <a href="#skills" className="nav__link">
                 <i className="uil uil-file-alt nav__icon"></i>Skills
               </a>
             </li>
