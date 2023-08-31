@@ -1,5 +1,5 @@
 import React from "react";
-import "./testimonials.css";
+import "./projects.css";
 import { Data } from "./Data";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,7 +13,9 @@ import { Pagination } from "swiper/modules";
 
 const Testimonials = () => {
   return (
-    <section className="testimonial container section">
+    <section className="testimonial" id="portfolio">
+      <div className="container section">
+
       <h2 className="section__title">Project</h2>
       <span className="section__subtitle">My personel Project</span>
       <Swiper
@@ -49,6 +51,7 @@ const Testimonials = () => {
           );
         })}
       </Swiper>
+      </div>
     </section>
   );
 };

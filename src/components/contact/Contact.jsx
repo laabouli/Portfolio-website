@@ -12,7 +12,11 @@ const Contact = () => {
       "template_v70bkn2",
       form.current,
       "HnhnDG7CsKkTy0_k_"
-    );
+    ).then((result) => {
+      console.log(result.text);
+  }, (error) => {
+      console.log(error.text);
+  });
 
     e.target.reset();
   };
@@ -28,45 +32,33 @@ const Contact = () => {
           <div className="contact__info">
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
-
-              <h3 className="contact__card-title">Email</h3>
-              <span className="contact_card-data">
+<br />
+              
+              <span className="contact__card-data">
                 mohammedlaabouli@gmail.com
               </span>
 
-              <a
-                href="mailto:mohammedlaabouli@gmail.com"
-                className="contact__button"
-              >
-                Write me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
+              
             </div>
             {/* *********************** */}
 
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
-              <h3 className="contact__card-title">WhatasApp</h3>
-              <span className="contact__card-data">0606286391</span>
 
-              <a href="" className="contact__button">
-                Write me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
+              <span className="contact__card-data">+212606286391</span>
+
+             
             </div>
             {/* *************************** */}
 
             <div className="contact__card">
               <i className="bx bxl-instagram contact__card-icon"></i>
 
-              <h3 className="contact__card-title">instagram</h3>
+     
               <span className="contact__card-data">mohamed</span>
 
-              <a href="" className="contact__button">
-                Write me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
+             
             </div>
           </div>
         </div>
@@ -105,10 +97,10 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button className="button button--flex">
+            <button className="button button--flex" >
               Send Message
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
