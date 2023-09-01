@@ -131,8 +131,23 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
+            {/* ***************** */}
+            <br />
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Developer</h3>
+                <span className="qualification__subtitle">Freelance -</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt">2020-2023 - Remote </i>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
             {/* *************************************************** */}
-
+            <br />
             <div className="qualification__data">
               <div></div>
               <div>
@@ -142,7 +157,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Technical network</h3>
                 <span className="qualification__subtitle">
-                  AK-technology - Tetouan{" "}
+                  AK-technology - Tetouan
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">2021 - present </i>
@@ -150,7 +165,7 @@ const Qualification = () => {
               </div>
             </div>
             {/* **************************** */}
-
+            <br />
             {/* *************************************************** */}
 
             <div className="qualification__data">
@@ -161,9 +176,7 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Formateur Web</h3>
-                <span className="qualification__subtitle">
-                  lorem - tetouan{" "}
-                </span>
+                <span className="qualification__subtitle">- Tetouan</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">2021 - present </i>
                 </div>
