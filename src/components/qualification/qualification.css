@@ -1,7 +1,9 @@
 .qualification__container {
   max-width: 768px;
 }
-
+/* .qualification{
+  padding:2em 0
+} */
 .qualification__tabs {
   display: flex;
   justify-content: center;
@@ -26,6 +28,8 @@
 
 .qualification__active {
   color: var(--title-color-dark);
+  font-weight: 700;
+  border-bottom: 2px solid black;
 }
 
 .qualification__sections {
@@ -40,6 +44,7 @@
 
 .qualification__content-active {
   display: block;
+
 }
 
 .qualification__data {
@@ -47,16 +52,19 @@
   grid-template-columns: 1fr max-content 1fr;
   columns: 1.5rem;
 }
-
+.qualification__item{
+  text-align: center;
+}
 .qualification__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  text-transform: capitalize;
 }
 
 .qualification__subtitle {
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  /* margin-bottom: var(--mb-1); */
 }
 
 .qualification__calendar {

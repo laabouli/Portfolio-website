@@ -1,13 +1,12 @@
 .scrollup {
-  position: fixed;
-  right: 2.5rem;
-  bottom: 3rem;
+  position: relative;
   background-color: var(--title-color);
   opacity: 0.8;
   padding: 0.3rem 0.5rem;
   border-radius: 0.4rem;
   z-index: var(--z-tooltip);
   transition: 0.4s;
+  color:white
 }
 
 .scrollup__icon {
@@ -21,6 +20,10 @@
 
 .show-scroll {
   bottom: 3rem;
+  position: fixed;
+  right: 2.5rem;
+  bottom: 3rem;
+
 }
 
 /* change backhround color */

@@ -1,7 +1,9 @@
 .testimonial__container {
-  width: 750px;
+  /* width: 750px; */
 }
-
+.testimonial{
+  background:#111111
+}
 .testimonial__card {
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -22,7 +24,10 @@
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-25);
 }
+.testimonial .section__title{
+  color:white
 
+}
 .testimonial__description {
   text-align: center;
   font-size: var(--small-font-size);
