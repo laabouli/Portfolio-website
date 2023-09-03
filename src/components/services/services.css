@@ -11,10 +11,9 @@
   background-color: var(--container-color);
   padding: 3rem;
   text-align: center;
-
 }
-.icon-item{
-  font-size:3rem
+.icon-item {
+  font-size: 3rem;
 }
 .service__icon {
   display: block;
@@ -23,18 +22,16 @@
   margin-bottom: var(--mb-1);
   font-size: 2rem;
 }
-.services__button{
+.services__button {
   display: inline-block;
   cursor: pointer;
   margin-top: 1em;
 }
-.services__icon
-.services__button {
+.services__icon .services__button {
   color: var(--title-color);
   font-size: var(--small-font-size);
   display: inline-flex;
   align-items: center;
-
 }
 
 .services__button-icon {
@@ -145,8 +142,11 @@
 }
 
 @media screen and (max-width: 576px) {
+  .services__content {
+    padding: 1.5rem;
+  }
   .services__modal-content {
-    padding: 4.5rem 1.5rem 2.5rem;
+    padding: 2.5rem;
   }
   .services__modal-description {
     padding: 0;
@@ -156,7 +156,15 @@
 /* For small devices */
 @media screen and (max-width: 350px) {
   .services__container {
-    grid-template-columns: repeat(1, 1fr);
-    padding-left: 5rem;
+    grid-template-columns: 80vw;
+    justify-content: center;
+    align-items: center;
+
+    /* padding-left: 5rem; */
+  }
+
+  .services__content {
+    width: 100%;
+    margin: 0 auto;
   }
 }
