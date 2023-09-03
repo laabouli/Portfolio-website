@@ -15,13 +15,13 @@ export const Data = [
     image: Image2,
     title: "Reso Web Site",
     description: "HTML, CSS,Js ",
-    URL: "https://quicker-iptv.com/",
+    URL: "https://9g0lvlitqkyfckjkvtt3nw.on.drv.tw/resto/resto/",
   },
   {
     id: 3,
     image: Image3,
     title: "Shop Web Site",
     description: "YouCan ",
-    URL: "https://quicker-iptv.com/",
+    URL: "https://seastylestore.ycan.shop/",
   },
 ];

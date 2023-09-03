@@ -15,9 +15,10 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-            fugit veritatis! Fuga vel excepturi eius quod corrupti officia ea
-            porro? Lorem ipsum dolor sit amet.
+            I am a skilled web developer specializing in website creation. My
+            expertise extends to various areas, including digital marketing,
+            content creation, social media engagement, graphic design, and the
+            art of web design.
           </p>
           <a download="" href={CV} className="button button--flex">
             Donwload CV

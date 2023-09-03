@@ -10,17 +10,16 @@ const Info = () => {
       </div>
 
       <div className="about__box">
-        <i className="bx bx-award about__icon"></i>
-
-        <h3 className="about__title">Lorem, ipsum.</h3>
-        <span className="about__subtitle">Lorem ipsum dolor sit.</span>
+        <i class="uil uil-check-circle about__icon"></i>
+        <h3 className="about__title">Completed.</h3>
+        <span className="about__subtitle">+20 Project.</span>
       </div>
 
       <div className="about__box">
-        <i className="bx bx-award about__icon"></i>
+        <i class="uil uil-parcel about__icon"></i>
 
-        <h3 className="about__title">Lorem, ipsum.</h3>
-        <span className="about__subtitle">Lorem ipsum dolor sit.</span>
+        <h3 className="about__title">Diploma.</h3>
+        <span className="about__subtitle">Advanced Cycle Diploma.</span>
       </div>
     </div>
   );
